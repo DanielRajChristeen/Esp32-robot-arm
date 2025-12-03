@@ -1,7 +1,8 @@
 # ESP32 4-DOF Robotic Arm
 
+<img src= "https://github.com/DanielRajChristeen/Esp32-robot-arm/blob/main/ESP32_Robot_Arm_Implementation.jpeg">
 
-This repository contains the firmware and documentation for a 4-DOF robotic arm controlled by an ESP32 over Bluetooth. The system accepts simple text commands (servo name, angle, delay) and moves each servo using a smooth sweep motion while enforcing safe angle ranges.
+This repository contains the firmware code for a 4-DOF robotic arm controlled by an ESP32 over Bluetooth. The system accepts simple text commands (servo name, angle, delay) and moves each servo using a smooth sweep motion while enforcing safe angle ranges.
 
 
 ### Features
@@ -12,10 +13,6 @@ This repository contains the firmware and documentation for a 4-DOF robotic arm 
 - Per-servo safe angle enforcement to prevent mechanical damage
 - Serial + Bluetooth telemetry for debugging
 - Default home-position initializer on boot
-
-
-### Repo Layout
-See the repository tree at the top of this document.
 
 
 ### Quick Start
